@@ -4,8 +4,8 @@
 
 
     listen 443 ssl http2;
-    ssl_certificate     /etc/nginx/ssl/<?php echo $domain ?>.vm.crt;
-    ssl_certificate_key /etc/nginx/ssl/<?php echo $domain ?>.vm.key;
+    ssl_certificate     /etc/nginx/ssl/<?php echo $domain ?>.crt;
+    ssl_certificate_key /etc/nginx/ssl/<?php echo $domain ?>.key;
 
     ssl_session_timeout 1d;
     ssl_session_cache shared:SSL:50m;
