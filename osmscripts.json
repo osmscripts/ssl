@@ -1,0 +1,7 @@
+{
+    "ssl": {
+        "commands": {
+            "create:cert": "Osmscripts\\Ssl\\Commands\\CreateCert"
+        }
+    }
+}
